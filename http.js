@@ -273,6 +273,7 @@ exports.normalizeRequest = function (request) {
     }
     request.headers.host = request.headers.host || request.host;
     request.path = request.path || "/";
+    console.log(276, request)
     return request;
 };
 
